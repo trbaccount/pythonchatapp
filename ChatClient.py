@@ -4,9 +4,10 @@ import sys
 
 #Connect to Server
 s = socket.socket()
-host = "192.168.1.174"
-port = 4444
+host = input("What is the host's ip: ")
+port = input("What is the host's port: ")
 s.connect((host,port))
+
 
 
 while True:
